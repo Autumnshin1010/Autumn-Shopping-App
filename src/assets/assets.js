@@ -1,6 +1,5 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
-import header_img from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -10,7 +9,8 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
-import logoForFooter from './logoForFooter.png'
+import React, { PureComponent } from 'react'
+import header_img from './header_img.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -63,7 +63,6 @@ import parcel_icon from './parcel_icon.png'
 
 export const assets = {
     logo,
-    logoForFooter,
     basket_icon,
     header_img,
     search_icon,
